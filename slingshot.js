@@ -14,7 +14,9 @@ class Slingshot{
 fly (){
 	this.rope.bodyA=null
 }
-	
+attach (){
+	this.rope.bodyA=bodyA
+}
 display()
 	{
 		if (this.rope.bodyA){
